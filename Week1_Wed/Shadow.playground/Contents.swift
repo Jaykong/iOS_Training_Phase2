@@ -5,7 +5,9 @@ import UIKit
 class View:UIView {
     override func drawRect(rect: CGRect) {
         let context = UIGraphicsGetCurrentContext()
-       let rect = CGRectInset(rect, rect.size.width * 0.1,  rect.size.height * 0.1)
+       let rect = CGRectInset(rect, rect.size.width * 0.3,  rect.size.height * 0.3)
+        let rectRight = CGRectMake(700, 150, 100, 100)
+        
         let cornerRadius :CGFloat = 20
         let rectPath = UIBezierPath(roundedRect: rect, cornerRadius: cornerRadius)
         CGContextSaveGState(context)
@@ -16,12 +18,17 @@ class View:UIView {
         CGContextSetShadowWithColor(context, shadowOffset, shadwoBlurRadius, shadow)
         UIColor.redColor().setFill()
         rectPath.fill()
-        CGContextRestoreGState(context)
+        
+    CGContextRestoreGState(context)
+        let rectRightPath = UIBezierPath(ovalInRect: rectRight)
+        UIColor.greenColor().setFill()
+        rectRightPath.fill()
+
         
     }
     
 }
 
 
-let view = View(frame: CGRectMake(0, 0, 300, 300))
+let view = View(frame: CGRectMake(0, 0, 1000, 500))
 
