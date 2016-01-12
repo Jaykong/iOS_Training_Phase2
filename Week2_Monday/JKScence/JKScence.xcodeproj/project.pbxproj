@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D318A5E71C4010CC00A11835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318A5E61C4010CC00A11835 /* AppDelegate.swift */; };
+		D318A5E91C4010CC00A11835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318A5E81C4010CC00A11835 /* ViewController.swift */; };
+		D318A5EC1C4010CC00A11835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D318A5EA1C4010CC00A11835 /* Main.storyboard */; };
+		D318A5EE1C4010CC00A11835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D318A5ED1C4010CC00A11835 /* Assets.xcassets */; };
+		D318A5F11C4010CC00A11835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D318A5EF1C4010CC00A11835 /* LaunchScreen.storyboard */; };
+		D318A5FC1C4010CC00A11835 /* JKScenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318A5FB1C4010CC00A11835 /* JKScenceTests.swift */; };
+		D318A6071C4010CC00A11835 /* JKScenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318A6061C4010CC00A11835 /* JKScenceUITests.swift */; };
+		D318A6151C40111A00A11835 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D318A6141C40111A00A11835 /* SceneKit.framework */; };
+		D318A6171C402E3200A11835 /* JKMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318A6161C402E3200A11835 /* JKMaterial.swift */; };
+		D36BDBB01C409BBE00F113AA /* TapRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDBAF1C409BBE00F113AA /* TapRecognizer.swift */; };
+		D36BDBB21C40A9A100F113AA /* JKGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDBB11C40A9A100F113AA /* JKGeometry.swift */; };
+		D36BDBB41C40B24F00F113AA /* Critter.dae in Resources */ = {isa = PBXBuildFile; fileRef = D36BDBB31C40B24F00F113AA /* Critter.dae */; };
+		D36BDBB61C40B29E00F113AA /* DaeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDBB51C40B29E00F113AA /* DaeNode.swift */; };
+		D36BDBB81C40B76500F113AA /* JKPhysicBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDBB71C40B76500F113AA /* JKPhysicBody.swift */; };
+		D36BDBBA1C40B95700F113AA /* JKSCNFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDBB91C40B95700F113AA /* JKSCNFloor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D318A5F81C4010CC00A11835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D318A5DB1C4010CC00A11835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D318A5E21C4010CC00A11835;
+			remoteInfo = JKScence;
+		};
+		D318A6031C4010CC00A11835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D318A5DB1C4010CC00A11835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D318A5E21C4010CC00A11835;
+			remoteInfo = JKScence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D318A5E31C4010CC00A11835 /* JKScence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKScence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D318A5E61C4010CC00A11835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D318A5E81C4010CC00A11835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D318A5EB1C4010CC00A11835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D318A5ED1C4010CC00A11835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D318A5F01C4010CC00A11835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D318A5F21C4010CC00A11835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D318A5F71C4010CC00A11835 /* JKScenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKScenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D318A5FB1C4010CC00A11835 /* JKScenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKScenceTests.swift; sourceTree = "<group>"; };
+		D318A5FD1C4010CC00A11835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D318A6021C4010CC00A11835 /* JKScenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKScenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D318A6061C4010CC00A11835 /* JKScenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKScenceUITests.swift; sourceTree = "<group>"; };
+		D318A6081C4010CC00A11835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D318A6141C40111A00A11835 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		D318A6161C402E3200A11835 /* JKMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMaterial.swift; sourceTree = "<group>"; };
+		D36BDBAF1C409BBE00F113AA /* TapRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapRecognizer.swift; sourceTree = "<group>"; };
+		D36BDBB11C40A9A100F113AA /* JKGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKGeometry.swift; sourceTree = "<group>"; };
+		D36BDBB31C40B24F00F113AA /* Critter.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Critter.dae; sourceTree = "<group>"; };
+		D36BDBB51C40B29E00F113AA /* DaeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaeNode.swift; sourceTree = "<group>"; };
+		D36BDBB71C40B76500F113AA /* JKPhysicBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPhysicBody.swift; sourceTree = "<group>"; };
+		D36BDBB91C40B95700F113AA /* JKSCNFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKSCNFloor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D318A5E01C4010CC00A11835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D318A6151C40111A00A11835 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A5F41C4010CC00A11835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A5FF1C4010CC00A11835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D318A5DA1C4010CC00A11835 = {
+			isa = PBXGroup;
+			children = (
+				D318A6141C40111A00A11835 /* SceneKit.framework */,
+				D318A5E51C4010CC00A11835 /* JKScence */,
+				D318A5FA1C4010CC00A11835 /* JKScenceTests */,
+				D318A6051C4010CC00A11835 /* JKScenceUITests */,
+				D318A5E41C4010CC00A11835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D318A5E41C4010CC00A11835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D318A5E31C4010CC00A11835 /* JKScence.app */,
+				D318A5F71C4010CC00A11835 /* JKScenceTests.xctest */,
+				D318A6021C4010CC00A11835 /* JKScenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D318A5E51C4010CC00A11835 /* JKScence */ = {
+			isa = PBXGroup;
+			children = (
+				D318A5E61C4010CC00A11835 /* AppDelegate.swift */,
+				D318A5E81C4010CC00A11835 /* ViewController.swift */,
+				D36BDBAF1C409BBE00F113AA /* TapRecognizer.swift */,
+				D36BDBB11C40A9A100F113AA /* JKGeometry.swift */,
+				D36BDBB51C40B29E00F113AA /* DaeNode.swift */,
+				D36BDBB71C40B76500F113AA /* JKPhysicBody.swift */,
+				D318A6161C402E3200A11835 /* JKMaterial.swift */,
+				D36BDBB91C40B95700F113AA /* JKSCNFloor.swift */,
+				D36BDBB31C40B24F00F113AA /* Critter.dae */,
+				D318A5EA1C4010CC00A11835 /* Main.storyboard */,
+				D318A5ED1C4010CC00A11835 /* Assets.xcassets */,
+				D318A5EF1C4010CC00A11835 /* LaunchScreen.storyboard */,
+				D318A5F21C4010CC00A11835 /* Info.plist */,
+			);
+			path = JKScence;
+			sourceTree = "<group>";
+		};
+		D318A5FA1C4010CC00A11835 /* JKScenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D318A5FB1C4010CC00A11835 /* JKScenceTests.swift */,
+				D318A5FD1C4010CC00A11835 /* Info.plist */,
+			);
+			path = JKScenceTests;
+			sourceTree = "<group>";
+		};
+		D318A6051C4010CC00A11835 /* JKScenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D318A6061C4010CC00A11835 /* JKScenceUITests.swift */,
+				D318A6081C4010CC00A11835 /* Info.plist */,
+			);
+			path = JKScenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D318A5E21C4010CC00A11835 /* JKScence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D318A60B1C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScence" */;
+			buildPhases = (
+				D318A5DF1C4010CC00A11835 /* Sources */,
+				D318A5E01C4010CC00A11835 /* Frameworks */,
+				D318A5E11C4010CC00A11835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKScence;
+			productName = JKScence;
+			productReference = D318A5E31C4010CC00A11835 /* JKScence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D318A5F61C4010CC00A11835 /* JKScenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D318A60E1C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScenceTests" */;
+			buildPhases = (
+				D318A5F31C4010CC00A11835 /* Sources */,
+				D318A5F41C4010CC00A11835 /* Frameworks */,
+				D318A5F51C4010CC00A11835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D318A5F91C4010CC00A11835 /* PBXTargetDependency */,
+			);
+			name = JKScenceTests;
+			productName = JKScenceTests;
+			productReference = D318A5F71C4010CC00A11835 /* JKScenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D318A6011C4010CC00A11835 /* JKScenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D318A6111C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScenceUITests" */;
+			buildPhases = (
+				D318A5FE1C4010CC00A11835 /* Sources */,
+				D318A5FF1C4010CC00A11835 /* Frameworks */,
+				D318A6001C4010CC00A11835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D318A6041C4010CC00A11835 /* PBXTargetDependency */,
+			);
+			name = JKScenceUITests;
+			productName = JKScenceUITests;
+			productReference = D318A6021C4010CC00A11835 /* JKScenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D318A5DB1C4010CC00A11835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D318A5E21C4010CC00A11835 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D318A5F61C4010CC00A11835 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D318A5E21C4010CC00A11835;
+					};
+					D318A6011C4010CC00A11835 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D318A5E21C4010CC00A11835;
+					};
+				};
+			};
+			buildConfigurationList = D318A5DE1C4010CC00A11835 /* Build configuration list for PBXProject "JKScence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D318A5DA1C4010CC00A11835;
+			productRefGroup = D318A5E41C4010CC00A11835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D318A5E21C4010CC00A11835 /* JKScence */,
+				D318A5F61C4010CC00A11835 /* JKScenceTests */,
+				D318A6011C4010CC00A11835 /* JKScenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D318A5E11C4010CC00A11835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BDBB41C40B24F00F113AA /* Critter.dae in Resources */,
+				D318A5F11C4010CC00A11835 /* LaunchScreen.storyboard in Resources */,
+				D318A5EE1C4010CC00A11835 /* Assets.xcassets in Resources */,
+				D318A5EC1C4010CC00A11835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A5F51C4010CC00A11835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A6001C4010CC00A11835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D318A5DF1C4010CC00A11835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D318A5E91C4010CC00A11835 /* ViewController.swift in Sources */,
+				D318A6171C402E3200A11835 /* JKMaterial.swift in Sources */,
+				D318A5E71C4010CC00A11835 /* AppDelegate.swift in Sources */,
+				D36BDBB21C40A9A100F113AA /* JKGeometry.swift in Sources */,
+				D36BDBB61C40B29E00F113AA /* DaeNode.swift in Sources */,
+				D36BDBB01C409BBE00F113AA /* TapRecognizer.swift in Sources */,
+				D36BDBBA1C40B95700F113AA /* JKSCNFloor.swift in Sources */,
+				D36BDBB81C40B76500F113AA /* JKPhysicBody.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A5F31C4010CC00A11835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D318A5FC1C4010CC00A11835 /* JKScenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D318A5FE1C4010CC00A11835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D318A6071C4010CC00A11835 /* JKScenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D318A5F91C4010CC00A11835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D318A5E21C4010CC00A11835 /* JKScence */;
+			targetProxy = D318A5F81C4010CC00A11835 /* PBXContainerItemProxy */;
+		};
+		D318A6041C4010CC00A11835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D318A5E21C4010CC00A11835 /* JKScence */;
+			targetProxy = D318A6031C4010CC00A11835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D318A5EA1C4010CC00A11835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D318A5EB1C4010CC00A11835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D318A5EF1C4010CC00A11835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D318A5F01C4010CC00A11835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D318A6091C4010CD00A11835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D318A60A1C4010CD00A11835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D318A60C1C4010CD00A11835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D318A60D1C4010CD00A11835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D318A60F1C4010CD00A11835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScence.app/JKScence";
+			};
+			name = Debug;
+		};
+		D318A6101C4010CD00A11835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScence.app/JKScence";
+			};
+			name = Release;
+		};
+		D318A6121C4010CD00A11835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKScenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKScence;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D318A6131C4010CD00A11835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKScenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKScenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKScence;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D318A5DE1C4010CC00A11835 /* Build configuration list for PBXProject "JKScence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D318A6091C4010CD00A11835 /* Debug */,
+				D318A60A1C4010CD00A11835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D318A60B1C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D318A60C1C4010CD00A11835 /* Debug */,
+				D318A60D1C4010CD00A11835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D318A60E1C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D318A60F1C4010CD00A11835 /* Debug */,
+				D318A6101C4010CD00A11835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D318A6111C4010CD00A11835 /* Build configuration list for PBXNativeTarget "JKScenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D318A6121C4010CD00A11835 /* Debug */,
+				D318A6131C4010CD00A11835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D318A5DB1C4010CC00A11835 /* Project object */;
+}
