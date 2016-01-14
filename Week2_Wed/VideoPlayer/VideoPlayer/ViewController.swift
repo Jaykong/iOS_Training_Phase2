@@ -44,8 +44,9 @@ class ViewController: NSViewController {
         return layer
         
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear() 
+     {
+        super.viewWillAppear()
         
    self.player = self.playerWithResource("TestVideo", extention: "m4v")
    let avLayer = self.playerLayer(self.player)
