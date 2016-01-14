@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yDQ-LK-zMN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Me-->
+        <scene sceneID="CtG-GX-NMI">
+            <objects>
+                <viewController id="ERD-9C-4KR" customClass="ViewController" customModule="JKImagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g1q-Cd-Hcx"/>
+                        <viewControllerLayoutGuide type="bottom" id="BRe-pZ-Hx1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uSJ-cH-8Ht">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Kw-XG-gGD">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Kw-XG-gGD" secondAttribute="trailing" constant="-20" id="HBz-Ud-zPm"/>
+                            <constraint firstItem="BRe-pZ-Hx1" firstAttribute="top" secondItem="9Kw-XG-gGD" secondAttribute="bottom" id="TFq-33-bk3"/>
+                            <constraint firstItem="9Kw-XG-gGD" firstAttribute="top" secondItem="g1q-Cd-Hcx" secondAttribute="bottom" id="YPE-TP-M2l"/>
+                            <constraint firstItem="9Kw-XG-gGD" firstAttribute="leading" secondItem="uSJ-cH-8Ht" secondAttribute="leadingMargin" constant="-20" id="br9-9t-Q6n"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photo Me" id="3qd-aq-67E">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="camera" id="ukb-Re-peO">
+                                <connections>
+                                    <action selector="takePhoto:" destination="ERD-9C-4KR" id="IeX-66-HmK"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="hyD-Wo-wIH">
+                                <connections>
+                                    <action selector="addPhoto:" destination="ERD-9C-4KR" id="BJt-gX-gpS"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="PhotoLibrary" id="Rd9-CO-TLc">
+                                <connections>
+                                    <action selector="addPhotoLibrary:" destination="ERD-9C-4KR" id="1kX-rf-xZp"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="9Kw-XG-gGD" id="G7c-JT-UlA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHV-1s-Qua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-641" y="607"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uZI-nf-5o3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yDQ-LK-zMN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aR2-or-Hpd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ERD-9C-4KR" kind="relationship" relationship="rootViewController" id="zfm-p5-6mA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8TK-AZ-0C0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1296" y="646"/>
+        </scene>
+    </scenes>
+</document>

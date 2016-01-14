@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36BDC041C410CC100F113AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDC031C410CC100F113AA /* AppDelegate.swift */; };
+		D36BDC061C410CC100F113AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDC051C410CC100F113AA /* ViewController.swift */; };
+		D36BDC091C410CC100F113AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36BDC071C410CC100F113AA /* Main.storyboard */; };
+		D36BDC0B1C410CC100F113AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36BDC0A1C410CC100F113AA /* Assets.xcassets */; };
+		D36BDC0E1C410CC100F113AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36BDC0C1C410CC100F113AA /* LaunchScreen.storyboard */; };
+		D36BDC191C410CC100F113AA /* JKAVSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDC181C410CC100F113AA /* JKAVSpeechTests.swift */; };
+		D36BDC241C410CC100F113AA /* JKAVSpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36BDC231C410CC100F113AA /* JKAVSpeechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36BDC151C410CC100F113AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36BDBF81C410CC100F113AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36BDBFF1C410CC100F113AA;
+			remoteInfo = JKAVSpeech;
+		};
+		D36BDC201C410CC100F113AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36BDBF81C410CC100F113AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36BDBFF1C410CC100F113AA;
+			remoteInfo = JKAVSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36BDC001C410CC100F113AA /* JKAVSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKAVSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36BDC031C410CC100F113AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36BDC051C410CC100F113AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36BDC081C410CC100F113AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36BDC0A1C410CC100F113AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36BDC0D1C410CC100F113AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36BDC0F1C410CC100F113AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36BDC141C410CC100F113AA /* JKAVSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKAVSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36BDC181C410CC100F113AA /* JKAVSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKAVSpeechTests.swift; sourceTree = "<group>"; };
+		D36BDC1A1C410CC100F113AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36BDC1F1C410CC100F113AA /* JKAVSpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKAVSpeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36BDC231C410CC100F113AA /* JKAVSpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKAVSpeechUITests.swift; sourceTree = "<group>"; };
+		D36BDC251C410CC100F113AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36BDBFD1C410CC100F113AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC111C410CC100F113AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC1C1C410CC100F113AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36BDBF71C410CC100F113AA = {
+			isa = PBXGroup;
+			children = (
+				D36BDC021C410CC100F113AA /* JKAVSpeech */,
+				D36BDC171C410CC100F113AA /* JKAVSpeechTests */,
+				D36BDC221C410CC100F113AA /* JKAVSpeechUITests */,
+				D36BDC011C410CC100F113AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36BDC011C410CC100F113AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36BDC001C410CC100F113AA /* JKAVSpeech.app */,
+				D36BDC141C410CC100F113AA /* JKAVSpeechTests.xctest */,
+				D36BDC1F1C410CC100F113AA /* JKAVSpeechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36BDC021C410CC100F113AA /* JKAVSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				D36BDC031C410CC100F113AA /* AppDelegate.swift */,
+				D36BDC051C410CC100F113AA /* ViewController.swift */,
+				D36BDC071C410CC100F113AA /* Main.storyboard */,
+				D36BDC0A1C410CC100F113AA /* Assets.xcassets */,
+				D36BDC0C1C410CC100F113AA /* LaunchScreen.storyboard */,
+				D36BDC0F1C410CC100F113AA /* Info.plist */,
+			);
+			path = JKAVSpeech;
+			sourceTree = "<group>";
+		};
+		D36BDC171C410CC100F113AA /* JKAVSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36BDC181C410CC100F113AA /* JKAVSpeechTests.swift */,
+				D36BDC1A1C410CC100F113AA /* Info.plist */,
+			);
+			path = JKAVSpeechTests;
+			sourceTree = "<group>";
+		};
+		D36BDC221C410CC100F113AA /* JKAVSpeechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36BDC231C410CC100F113AA /* JKAVSpeechUITests.swift */,
+				D36BDC251C410CC100F113AA /* Info.plist */,
+			);
+			path = JKAVSpeechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36BDBFF1C410CC100F113AA /* JKAVSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36BDC281C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeech" */;
+			buildPhases = (
+				D36BDBFC1C410CC100F113AA /* Sources */,
+				D36BDBFD1C410CC100F113AA /* Frameworks */,
+				D36BDBFE1C410CC100F113AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKAVSpeech;
+			productName = JKAVSpeech;
+			productReference = D36BDC001C410CC100F113AA /* JKAVSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36BDC131C410CC100F113AA /* JKAVSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36BDC2B1C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeechTests" */;
+			buildPhases = (
+				D36BDC101C410CC100F113AA /* Sources */,
+				D36BDC111C410CC100F113AA /* Frameworks */,
+				D36BDC121C410CC100F113AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36BDC161C410CC100F113AA /* PBXTargetDependency */,
+			);
+			name = JKAVSpeechTests;
+			productName = JKAVSpeechTests;
+			productReference = D36BDC141C410CC100F113AA /* JKAVSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36BDC1E1C410CC100F113AA /* JKAVSpeechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36BDC2E1C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeechUITests" */;
+			buildPhases = (
+				D36BDC1B1C410CC100F113AA /* Sources */,
+				D36BDC1C1C410CC100F113AA /* Frameworks */,
+				D36BDC1D1C410CC100F113AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36BDC211C410CC100F113AA /* PBXTargetDependency */,
+			);
+			name = JKAVSpeechUITests;
+			productName = JKAVSpeechUITests;
+			productReference = D36BDC1F1C410CC100F113AA /* JKAVSpeechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36BDBF81C410CC100F113AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D36BDBFF1C410CC100F113AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D36BDC131C410CC100F113AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D36BDBFF1C410CC100F113AA;
+					};
+					D36BDC1E1C410CC100F113AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D36BDBFF1C410CC100F113AA;
+					};
+				};
+			};
+			buildConfigurationList = D36BDBFB1C410CC100F113AA /* Build configuration list for PBXProject "JKAVSpeech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36BDBF71C410CC100F113AA;
+			productRefGroup = D36BDC011C410CC100F113AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36BDBFF1C410CC100F113AA /* JKAVSpeech */,
+				D36BDC131C410CC100F113AA /* JKAVSpeechTests */,
+				D36BDC1E1C410CC100F113AA /* JKAVSpeechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36BDBFE1C410CC100F113AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BDC0E1C410CC100F113AA /* LaunchScreen.storyboard in Resources */,
+				D36BDC0B1C410CC100F113AA /* Assets.xcassets in Resources */,
+				D36BDC091C410CC100F113AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC121C410CC100F113AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC1D1C410CC100F113AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36BDBFC1C410CC100F113AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BDC061C410CC100F113AA /* ViewController.swift in Sources */,
+				D36BDC041C410CC100F113AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC101C410CC100F113AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BDC191C410CC100F113AA /* JKAVSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BDC1B1C410CC100F113AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36BDC241C410CC100F113AA /* JKAVSpeechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36BDC161C410CC100F113AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36BDBFF1C410CC100F113AA /* JKAVSpeech */;
+			targetProxy = D36BDC151C410CC100F113AA /* PBXContainerItemProxy */;
+		};
+		D36BDC211C410CC100F113AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36BDBFF1C410CC100F113AA /* JKAVSpeech */;
+			targetProxy = D36BDC201C410CC100F113AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36BDC071C410CC100F113AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36BDC081C410CC100F113AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36BDC0C1C410CC100F113AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36BDC0D1C410CC100F113AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36BDC261C410CC100F113AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36BDC271C410CC100F113AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36BDC291C410CC100F113AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAVSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D36BDC2A1C410CC100F113AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAVSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D36BDC2C1C410CC100F113AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKAVSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKAVSpeech.app/JKAVSpeech";
+			};
+			name = Debug;
+		};
+		D36BDC2D1C410CC100F113AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKAVSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKAVSpeech.app/JKAVSpeech";
+			};
+			name = Release;
+		};
+		D36BDC2F1C410CC100F113AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKAVSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKAVSpeech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D36BDC301C410CC100F113AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKAVSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKAVSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKAVSpeech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36BDBFB1C410CC100F113AA /* Build configuration list for PBXProject "JKAVSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36BDC261C410CC100F113AA /* Debug */,
+				D36BDC271C410CC100F113AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36BDC281C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36BDC291C410CC100F113AA /* Debug */,
+				D36BDC2A1C410CC100F113AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D36BDC2B1C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36BDC2C1C410CC100F113AA /* Debug */,
+				D36BDC2D1C410CC100F113AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D36BDC2E1C410CC100F113AA /* Build configuration list for PBXNativeTarget "JKAVSpeechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36BDC2F1C410CC100F113AA /* Debug */,
+				D36BDC301C410CC100F113AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36BDBF81C410CC100F113AA /* Project object */;
+}

@@ -31,12 +31,13 @@ class TapRecognizer: NSObject,TapRecognizerDelegate {
             for hit in hits {
                 if let theMaterial = hit.node.geometry?.materials[0] {
                     let highlightAnimation = CABasicAnimation(keyPath: "contents")
+                   
                     highlightAnimation.fromValue = UIColor.blackColor()
                     highlightAnimation.toValue = UIColor.yellowColor()
                     highlightAnimation.autoreverses = true
                     highlightAnimation.repeatCount = 0
                     highlightAnimation.duration = 1
-                    theMaterial.emission.addAnimation(highlightAnimation, forKey: "highlight")
+                    theMaterial.emission.addAnimation(highlightAnimation, forKey: "hightlight")
                 }
             }
         }
