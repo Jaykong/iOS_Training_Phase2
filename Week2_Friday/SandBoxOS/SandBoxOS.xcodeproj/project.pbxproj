@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D37CF2431C4824DF00C324E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CF2421C4824DF00C324E1 /* AppDelegate.swift */; };
+		D37CF2451C4824DF00C324E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37CF2441C4824DF00C324E1 /* Assets.xcassets */; };
+		D37CF2481C4824DF00C324E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37CF2461C4824DF00C324E1 /* MainMenu.xib */; };
+		D37CF2531C4824DF00C324E1 /* SandBoxOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CF2521C4824DF00C324E1 /* SandBoxOSTests.swift */; };
+		D37CF25E1C4824DF00C324E1 /* SandBoxOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CF25D1C4824DF00C324E1 /* SandBoxOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37CF24F1C4824DF00C324E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37CF2371C4824DF00C324E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37CF23E1C4824DF00C324E1;
+			remoteInfo = SandBoxOS;
+		};
+		D37CF25A1C4824DF00C324E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37CF2371C4824DF00C324E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37CF23E1C4824DF00C324E1;
+			remoteInfo = SandBoxOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D37CF23F1C4824DF00C324E1 /* SandBoxOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBoxOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37CF2421C4824DF00C324E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D37CF2441C4824DF00C324E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D37CF2471C4824DF00C324E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D37CF2491C4824DF00C324E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37CF24E1C4824DF00C324E1 /* SandBoxOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37CF2521C4824DF00C324E1 /* SandBoxOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxOSTests.swift; sourceTree = "<group>"; };
+		D37CF2541C4824DF00C324E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37CF2591C4824DF00C324E1 /* SandBoxOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37CF25D1C4824DF00C324E1 /* SandBoxOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxOSUITests.swift; sourceTree = "<group>"; };
+		D37CF25F1C4824DF00C324E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37CF26C1C4827BF00C324E1 /* SandBoxOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SandBoxOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37CF23C1C4824DF00C324E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF24B1C4824DF00C324E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF2561C4824DF00C324E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37CF2361C4824DF00C324E1 = {
+			isa = PBXGroup;
+			children = (
+				D37CF2411C4824DF00C324E1 /* SandBoxOS */,
+				D37CF2511C4824DF00C324E1 /* SandBoxOSTests */,
+				D37CF25C1C4824DF00C324E1 /* SandBoxOSUITests */,
+				D37CF2401C4824DF00C324E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37CF2401C4824DF00C324E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37CF23F1C4824DF00C324E1 /* SandBoxOS.app */,
+				D37CF24E1C4824DF00C324E1 /* SandBoxOSTests.xctest */,
+				D37CF2591C4824DF00C324E1 /* SandBoxOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37CF2411C4824DF00C324E1 /* SandBoxOS */ = {
+			isa = PBXGroup;
+			children = (
+				D37CF26C1C4827BF00C324E1 /* SandBoxOS.entitlements */,
+				D37CF2421C4824DF00C324E1 /* AppDelegate.swift */,
+				D37CF2441C4824DF00C324E1 /* Assets.xcassets */,
+				D37CF2461C4824DF00C324E1 /* MainMenu.xib */,
+				D37CF2491C4824DF00C324E1 /* Info.plist */,
+			);
+			path = SandBoxOS;
+			sourceTree = "<group>";
+		};
+		D37CF2511C4824DF00C324E1 /* SandBoxOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37CF2521C4824DF00C324E1 /* SandBoxOSTests.swift */,
+				D37CF2541C4824DF00C324E1 /* Info.plist */,
+			);
+			path = SandBoxOSTests;
+			sourceTree = "<group>";
+		};
+		D37CF25C1C4824DF00C324E1 /* SandBoxOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D37CF25D1C4824DF00C324E1 /* SandBoxOSUITests.swift */,
+				D37CF25F1C4824DF00C324E1 /* Info.plist */,
+			);
+			path = SandBoxOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37CF23E1C4824DF00C324E1 /* SandBoxOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37CF2621C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOS" */;
+			buildPhases = (
+				D37CF23B1C4824DF00C324E1 /* Sources */,
+				D37CF23C1C4824DF00C324E1 /* Frameworks */,
+				D37CF23D1C4824DF00C324E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandBoxOS;
+			productName = SandBoxOS;
+			productReference = D37CF23F1C4824DF00C324E1 /* SandBoxOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37CF24D1C4824DF00C324E1 /* SandBoxOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37CF2651C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOSTests" */;
+			buildPhases = (
+				D37CF24A1C4824DF00C324E1 /* Sources */,
+				D37CF24B1C4824DF00C324E1 /* Frameworks */,
+				D37CF24C1C4824DF00C324E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37CF2501C4824DF00C324E1 /* PBXTargetDependency */,
+			);
+			name = SandBoxOSTests;
+			productName = SandBoxOSTests;
+			productReference = D37CF24E1C4824DF00C324E1 /* SandBoxOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D37CF2581C4824DF00C324E1 /* SandBoxOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37CF2681C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOSUITests" */;
+			buildPhases = (
+				D37CF2551C4824DF00C324E1 /* Sources */,
+				D37CF2561C4824DF00C324E1 /* Frameworks */,
+				D37CF2571C4824DF00C324E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37CF25B1C4824DF00C324E1 /* PBXTargetDependency */,
+			);
+			name = SandBoxOSUITests;
+			productName = SandBoxOSUITests;
+			productReference = D37CF2591C4824DF00C324E1 /* SandBoxOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37CF2371C4824DF00C324E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D37CF23E1C4824DF00C324E1 = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					D37CF24D1C4824DF00C324E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D37CF23E1C4824DF00C324E1;
+					};
+					D37CF2581C4824DF00C324E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D37CF23E1C4824DF00C324E1;
+					};
+				};
+			};
+			buildConfigurationList = D37CF23A1C4824DF00C324E1 /* Build configuration list for PBXProject "SandBoxOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37CF2361C4824DF00C324E1;
+			productRefGroup = D37CF2401C4824DF00C324E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37CF23E1C4824DF00C324E1 /* SandBoxOS */,
+				D37CF24D1C4824DF00C324E1 /* SandBoxOSTests */,
+				D37CF2581C4824DF00C324E1 /* SandBoxOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37CF23D1C4824DF00C324E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CF2451C4824DF00C324E1 /* Assets.xcassets in Resources */,
+				D37CF2481C4824DF00C324E1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF24C1C4824DF00C324E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF2571C4824DF00C324E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37CF23B1C4824DF00C324E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CF2431C4824DF00C324E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF24A1C4824DF00C324E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CF2531C4824DF00C324E1 /* SandBoxOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CF2551C4824DF00C324E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CF25E1C4824DF00C324E1 /* SandBoxOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37CF2501C4824DF00C324E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37CF23E1C4824DF00C324E1 /* SandBoxOS */;
+			targetProxy = D37CF24F1C4824DF00C324E1 /* PBXContainerItemProxy */;
+		};
+		D37CF25B1C4824DF00C324E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37CF23E1C4824DF00C324E1 /* SandBoxOS */;
+			targetProxy = D37CF25A1C4824DF00C324E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37CF2461C4824DF00C324E1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37CF2471C4824DF00C324E1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37CF2601C4824DF00C324E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D37CF2611C4824DF00C324E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D37CF2631C4824DF00C324E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SandBoxOS/SandBoxOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D37CF2641C4824DF00C324E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SandBoxOS/SandBoxOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D37CF2661C4824DF00C324E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBoxOS.app/Contents/MacOS/SandBoxOS";
+			};
+			name = Debug;
+		};
+		D37CF2671C4824DF00C324E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBoxOS.app/Contents/MacOS/SandBoxOS";
+			};
+			name = Release;
+		};
+		D37CF2691C4824DF00C324E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SandBoxOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D37CF26A1C4824DF00C324E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SandBoxOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.SandBoxOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SandBoxOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37CF23A1C4824DF00C324E1 /* Build configuration list for PBXProject "SandBoxOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37CF2601C4824DF00C324E1 /* Debug */,
+				D37CF2611C4824DF00C324E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37CF2621C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37CF2631C4824DF00C324E1 /* Debug */,
+				D37CF2641C4824DF00C324E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D37CF2651C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37CF2661C4824DF00C324E1 /* Debug */,
+				D37CF2671C4824DF00C324E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D37CF2681C4824DF00C324E1 /* Build configuration list for PBXNativeTarget "SandBoxOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37CF2691C4824DF00C324E1 /* Debug */,
+				D37CF26A1C4824DF00C324E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37CF2371C4824DF00C324E1 /* Project object */;
+}

@@ -10,20 +10,20 @@ import Cocoa
 import AVFoundation
 import Quartz
 class ViewController: NSViewController {
-    var player:AVPlayer!
+    var player:AVPlayer?
     @IBOutlet var playerView: NSView!
     
     
     @IBAction func play(sender: AnyObject) {
-        player.play()
+        player!.play()
     }
     
     @IBAction func playSlowMotion(sender: AnyObject) {
-        player.rate = 0.25
+        player!.rate = 0.25
     }
     
     @IBAction func rewind(sender: AnyObject) {
-        player.seekToTime(kCMTimeZero)
+        player!.seekToTime(kCMTimeZero)
     }
     
     func playerWithResource(name:String,extention:String) -> AVPlayer {
@@ -48,7 +48,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         
    self.player = self.playerWithResource("TestVideo", extention: "m4v")
-   let avLayer = self.playerLayer(self.player)
+   let avLayer = self.playerLayer(self.player!)
    self.playerView.layer?.addSublayer(avLayer)
     
         // Do any additional setup after loading the view.
