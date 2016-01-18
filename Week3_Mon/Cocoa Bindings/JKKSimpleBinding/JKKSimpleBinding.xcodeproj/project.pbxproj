@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D150561C4CAA66002D09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150551C4CAA66002D09BA /* AppDelegate.swift */; };
+		A9D150581C4CAA66002D09BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D150571C4CAA66002D09BA /* Assets.xcassets */; };
+		A9D1505B1C4CAA66002D09BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D150591C4CAA66002D09BA /* MainMenu.xib */; };
+		A9D150661C4CAA66002D09BA /* JKKSimpleBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150651C4CAA66002D09BA /* JKKSimpleBindingTests.swift */; };
+		A9D150711C4CAA66002D09BA /* JKKSimpleBindingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150701C4CAA66002D09BA /* JKKSimpleBindingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D150621C4CAA66002D09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D1504A1C4CAA66002D09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D150511C4CAA66002D09BA;
+			remoteInfo = JKKSimpleBinding;
+		};
+		A9D1506D1C4CAA66002D09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D1504A1C4CAA66002D09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D150511C4CAA66002D09BA;
+			remoteInfo = JKKSimpleBinding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9D150521C4CAA66002D09BA /* JKKSimpleBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKKSimpleBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150551C4CAA66002D09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9D150571C4CAA66002D09BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D1505A1C4CAA66002D09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9D1505C1C4CAA66002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D150611C4CAA66002D09BA /* JKKSimpleBindingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKSimpleBindingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150651C4CAA66002D09BA /* JKKSimpleBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKSimpleBindingTests.swift; sourceTree = "<group>"; };
+		A9D150671C4CAA66002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D1506C1C4CAA66002D09BA /* JKKSimpleBindingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKSimpleBindingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150701C4CAA66002D09BA /* JKKSimpleBindingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKSimpleBindingUITests.swift; sourceTree = "<group>"; };
+		A9D150721C4CAA66002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D1504F1C4CAA66002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D1505E1C4CAA66002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150691C4CAA66002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D150491C4CAA66002D09BA = {
+			isa = PBXGroup;
+			children = (
+				A9D150541C4CAA66002D09BA /* JKKSimpleBinding */,
+				A9D150641C4CAA66002D09BA /* JKKSimpleBindingTests */,
+				A9D1506F1C4CAA66002D09BA /* JKKSimpleBindingUITests */,
+				A9D150531C4CAA66002D09BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D150531C4CAA66002D09BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150521C4CAA66002D09BA /* JKKSimpleBinding.app */,
+				A9D150611C4CAA66002D09BA /* JKKSimpleBindingTests.xctest */,
+				A9D1506C1C4CAA66002D09BA /* JKKSimpleBindingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D150541C4CAA66002D09BA /* JKKSimpleBinding */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150551C4CAA66002D09BA /* AppDelegate.swift */,
+				A9D150571C4CAA66002D09BA /* Assets.xcassets */,
+				A9D150591C4CAA66002D09BA /* MainMenu.xib */,
+				A9D1505C1C4CAA66002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleBinding;
+			sourceTree = "<group>";
+		};
+		A9D150641C4CAA66002D09BA /* JKKSimpleBindingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150651C4CAA66002D09BA /* JKKSimpleBindingTests.swift */,
+				A9D150671C4CAA66002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleBindingTests;
+			sourceTree = "<group>";
+		};
+		A9D1506F1C4CAA66002D09BA /* JKKSimpleBindingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150701C4CAA66002D09BA /* JKKSimpleBindingUITests.swift */,
+				A9D150721C4CAA66002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleBindingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D150511C4CAA66002D09BA /* JKKSimpleBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D150751C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBinding" */;
+			buildPhases = (
+				A9D1504E1C4CAA66002D09BA /* Sources */,
+				A9D1504F1C4CAA66002D09BA /* Frameworks */,
+				A9D150501C4CAA66002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKKSimpleBinding;
+			productName = JKKSimpleBinding;
+			productReference = A9D150521C4CAA66002D09BA /* JKKSimpleBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D150601C4CAA66002D09BA /* JKKSimpleBindingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D150781C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBindingTests" */;
+			buildPhases = (
+				A9D1505D1C4CAA66002D09BA /* Sources */,
+				A9D1505E1C4CAA66002D09BA /* Frameworks */,
+				A9D1505F1C4CAA66002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D150631C4CAA66002D09BA /* PBXTargetDependency */,
+			);
+			name = JKKSimpleBindingTests;
+			productName = JKKSimpleBindingTests;
+			productReference = A9D150611C4CAA66002D09BA /* JKKSimpleBindingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9D1506B1C4CAA66002D09BA /* JKKSimpleBindingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D1507B1C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBindingUITests" */;
+			buildPhases = (
+				A9D150681C4CAA66002D09BA /* Sources */,
+				A9D150691C4CAA66002D09BA /* Frameworks */,
+				A9D1506A1C4CAA66002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D1506E1C4CAA66002D09BA /* PBXTargetDependency */,
+			);
+			name = JKKSimpleBindingUITests;
+			productName = JKKSimpleBindingUITests;
+			productReference = A9D1506C1C4CAA66002D09BA /* JKKSimpleBindingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D1504A1C4CAA66002D09BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A9D150511C4CAA66002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A9D150601C4CAA66002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A9D150511C4CAA66002D09BA;
+					};
+					A9D1506B1C4CAA66002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A9D150511C4CAA66002D09BA;
+					};
+				};
+			};
+			buildConfigurationList = A9D1504D1C4CAA66002D09BA /* Build configuration list for PBXProject "JKKSimpleBinding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D150491C4CAA66002D09BA;
+			productRefGroup = A9D150531C4CAA66002D09BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D150511C4CAA66002D09BA /* JKKSimpleBinding */,
+				A9D150601C4CAA66002D09BA /* JKKSimpleBindingTests */,
+				A9D1506B1C4CAA66002D09BA /* JKKSimpleBindingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D150501C4CAA66002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150581C4CAA66002D09BA /* Assets.xcassets in Resources */,
+				A9D1505B1C4CAA66002D09BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D1505F1C4CAA66002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D1506A1C4CAA66002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D1504E1C4CAA66002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150561C4CAA66002D09BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D1505D1C4CAA66002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150661C4CAA66002D09BA /* JKKSimpleBindingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150681C4CAA66002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150711C4CAA66002D09BA /* JKKSimpleBindingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D150631C4CAA66002D09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D150511C4CAA66002D09BA /* JKKSimpleBinding */;
+			targetProxy = A9D150621C4CAA66002D09BA /* PBXContainerItemProxy */;
+		};
+		A9D1506E1C4CAA66002D09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D150511C4CAA66002D09BA /* JKKSimpleBinding */;
+			targetProxy = A9D1506D1C4CAA66002D09BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D150591C4CAA66002D09BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D1505A1C4CAA66002D09BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D150731C4CAA66002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9D150741C4CAA66002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9D150761C4CAA66002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9D150771C4CAA66002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9D150791C4CAA66002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBindingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKSimpleBinding.app/Contents/MacOS/JKKSimpleBinding";
+			};
+			name = Debug;
+		};
+		A9D1507A1C4CAA66002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBindingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKSimpleBinding.app/Contents/MacOS/JKKSimpleBinding";
+			};
+			name = Release;
+		};
+		A9D1507C1C4CAA66002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBindingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKSimpleBinding;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9D1507D1C4CAA66002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleBindingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKSimpleBinding;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D1504D1C4CAA66002D09BA /* Build configuration list for PBXProject "JKKSimpleBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150731C4CAA66002D09BA /* Debug */,
+				A9D150741C4CAA66002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D150751C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150761C4CAA66002D09BA /* Debug */,
+				A9D150771C4CAA66002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9D150781C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBindingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150791C4CAA66002D09BA /* Debug */,
+				A9D1507A1C4CAA66002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9D1507B1C4CAA66002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleBindingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D1507C1C4CAA66002D09BA /* Debug */,
+				A9D1507D1C4CAA66002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D1504A1C4CAA66002D09BA /* Project object */;
+}

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D150C21C4CBD84002D09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150C11C4CBD84002D09BA /* AppDelegate.swift */; };
+		A9D150C41C4CBD84002D09BA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150C31C4CBD84002D09BA /* Document.swift */; };
+		A9D150C71C4CBD84002D09BA /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D150C51C4CBD84002D09BA /* Document.xib */; };
+		A9D150C91C4CBD84002D09BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D150C81C4CBD84002D09BA /* Assets.xcassets */; };
+		A9D150CC1C4CBD84002D09BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D150CA1C4CBD84002D09BA /* MainMenu.xib */; };
+		A9D150D71C4CBD84002D09BA /* JKKSimpleDocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150D61C4CBD84002D09BA /* JKKSimpleDocumentTests.swift */; };
+		A9D150E21C4CBD84002D09BA /* JKKSimpleDocumentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D150E11C4CBD84002D09BA /* JKKSimpleDocumentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D150D31C4CBD84002D09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D150B61C4CBD84002D09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D150BD1C4CBD84002D09BA;
+			remoteInfo = JKKSimpleDocument;
+		};
+		A9D150DE1C4CBD84002D09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D150B61C4CBD84002D09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D150BD1C4CBD84002D09BA;
+			remoteInfo = JKKSimpleDocument;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9D150BE1C4CBD84002D09BA /* JKKSimpleDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKKSimpleDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150C11C4CBD84002D09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9D150C31C4CBD84002D09BA /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		A9D150C61C4CBD84002D09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		A9D150C81C4CBD84002D09BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D150CB1C4CBD84002D09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9D150CD1C4CBD84002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D150D21C4CBD84002D09BA /* JKKSimpleDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKSimpleDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150D61C4CBD84002D09BA /* JKKSimpleDocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKSimpleDocumentTests.swift; sourceTree = "<group>"; };
+		A9D150D81C4CBD84002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D150DD1C4CBD84002D09BA /* JKKSimpleDocumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKSimpleDocumentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D150E11C4CBD84002D09BA /* JKKSimpleDocumentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKSimpleDocumentUITests.swift; sourceTree = "<group>"; };
+		A9D150E31C4CBD84002D09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D150BB1C4CBD84002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150CF1C4CBD84002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150DA1C4CBD84002D09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D150B51C4CBD84002D09BA = {
+			isa = PBXGroup;
+			children = (
+				A9D150C01C4CBD84002D09BA /* JKKSimpleDocument */,
+				A9D150D51C4CBD84002D09BA /* JKKSimpleDocumentTests */,
+				A9D150E01C4CBD84002D09BA /* JKKSimpleDocumentUITests */,
+				A9D150BF1C4CBD84002D09BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D150BF1C4CBD84002D09BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150BE1C4CBD84002D09BA /* JKKSimpleDocument.app */,
+				A9D150D21C4CBD84002D09BA /* JKKSimpleDocumentTests.xctest */,
+				A9D150DD1C4CBD84002D09BA /* JKKSimpleDocumentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D150C01C4CBD84002D09BA /* JKKSimpleDocument */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150C11C4CBD84002D09BA /* AppDelegate.swift */,
+				A9D150C31C4CBD84002D09BA /* Document.swift */,
+				A9D150C51C4CBD84002D09BA /* Document.xib */,
+				A9D150C81C4CBD84002D09BA /* Assets.xcassets */,
+				A9D150CA1C4CBD84002D09BA /* MainMenu.xib */,
+				A9D150CD1C4CBD84002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleDocument;
+			sourceTree = "<group>";
+		};
+		A9D150D51C4CBD84002D09BA /* JKKSimpleDocumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150D61C4CBD84002D09BA /* JKKSimpleDocumentTests.swift */,
+				A9D150D81C4CBD84002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleDocumentTests;
+			sourceTree = "<group>";
+		};
+		A9D150E01C4CBD84002D09BA /* JKKSimpleDocumentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D150E11C4CBD84002D09BA /* JKKSimpleDocumentUITests.swift */,
+				A9D150E31C4CBD84002D09BA /* Info.plist */,
+			);
+			path = JKKSimpleDocumentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D150BD1C4CBD84002D09BA /* JKKSimpleDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D150E61C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocument" */;
+			buildPhases = (
+				A9D150BA1C4CBD84002D09BA /* Sources */,
+				A9D150BB1C4CBD84002D09BA /* Frameworks */,
+				A9D150BC1C4CBD84002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKKSimpleDocument;
+			productName = JKKSimpleDocument;
+			productReference = A9D150BE1C4CBD84002D09BA /* JKKSimpleDocument.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D150D11C4CBD84002D09BA /* JKKSimpleDocumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D150E91C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocumentTests" */;
+			buildPhases = (
+				A9D150CE1C4CBD84002D09BA /* Sources */,
+				A9D150CF1C4CBD84002D09BA /* Frameworks */,
+				A9D150D01C4CBD84002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D150D41C4CBD84002D09BA /* PBXTargetDependency */,
+			);
+			name = JKKSimpleDocumentTests;
+			productName = JKKSimpleDocumentTests;
+			productReference = A9D150D21C4CBD84002D09BA /* JKKSimpleDocumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9D150DC1C4CBD84002D09BA /* JKKSimpleDocumentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D150EC1C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocumentUITests" */;
+			buildPhases = (
+				A9D150D91C4CBD84002D09BA /* Sources */,
+				A9D150DA1C4CBD84002D09BA /* Frameworks */,
+				A9D150DB1C4CBD84002D09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D150DF1C4CBD84002D09BA /* PBXTargetDependency */,
+			);
+			name = JKKSimpleDocumentUITests;
+			productName = JKKSimpleDocumentUITests;
+			productReference = A9D150DD1C4CBD84002D09BA /* JKKSimpleDocumentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D150B61C4CBD84002D09BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A9D150BD1C4CBD84002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A9D150D11C4CBD84002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A9D150BD1C4CBD84002D09BA;
+					};
+					A9D150DC1C4CBD84002D09BA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A9D150BD1C4CBD84002D09BA;
+					};
+				};
+			};
+			buildConfigurationList = A9D150B91C4CBD84002D09BA /* Build configuration list for PBXProject "JKKSimpleDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D150B51C4CBD84002D09BA;
+			productRefGroup = A9D150BF1C4CBD84002D09BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D150BD1C4CBD84002D09BA /* JKKSimpleDocument */,
+				A9D150D11C4CBD84002D09BA /* JKKSimpleDocumentTests */,
+				A9D150DC1C4CBD84002D09BA /* JKKSimpleDocumentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D150BC1C4CBD84002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150C91C4CBD84002D09BA /* Assets.xcassets in Resources */,
+				A9D150C71C4CBD84002D09BA /* Document.xib in Resources */,
+				A9D150CC1C4CBD84002D09BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150D01C4CBD84002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150DB1C4CBD84002D09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D150BA1C4CBD84002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150C41C4CBD84002D09BA /* Document.swift in Sources */,
+				A9D150C21C4CBD84002D09BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150CE1C4CBD84002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150D71C4CBD84002D09BA /* JKKSimpleDocumentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D150D91C4CBD84002D09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D150E21C4CBD84002D09BA /* JKKSimpleDocumentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D150D41C4CBD84002D09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D150BD1C4CBD84002D09BA /* JKKSimpleDocument */;
+			targetProxy = A9D150D31C4CBD84002D09BA /* PBXContainerItemProxy */;
+		};
+		A9D150DF1C4CBD84002D09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D150BD1C4CBD84002D09BA /* JKKSimpleDocument */;
+			targetProxy = A9D150DE1C4CBD84002D09BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D150C51C4CBD84002D09BA /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D150C61C4CBD84002D09BA /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		A9D150CA1C4CBD84002D09BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D150CB1C4CBD84002D09BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D150E41C4CBD84002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9D150E51C4CBD84002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9D150E71C4CBD84002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9D150E81C4CBD84002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9D150EA1C4CBD84002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKSimpleDocument.app/Contents/MacOS/JKKSimpleDocument";
+			};
+			name = Debug;
+		};
+		A9D150EB1C4CBD84002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKSimpleDocument.app/Contents/MacOS/JKKSimpleDocument";
+			};
+			name = Release;
+		};
+		A9D150ED1C4CBD84002D09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocumentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocumentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKSimpleDocument;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9D150EE1C4CBD84002D09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKSimpleDocumentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKKSimpleDocumentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKSimpleDocument;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D150B91C4CBD84002D09BA /* Build configuration list for PBXProject "JKKSimpleDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150E41C4CBD84002D09BA /* Debug */,
+				A9D150E51C4CBD84002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D150E61C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150E71C4CBD84002D09BA /* Debug */,
+				A9D150E81C4CBD84002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9D150E91C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150EA1C4CBD84002D09BA /* Debug */,
+				A9D150EB1C4CBD84002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9D150EC1C4CBD84002D09BA /* Build configuration list for PBXNativeTarget "JKKSimpleDocumentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D150ED1C4CBD84002D09BA /* Debug */,
+				A9D150EE1C4CBD84002D09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D150B61C4CBD84002D09BA /* Project object */;
+}
