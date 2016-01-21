@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D488FC1C49F73C001C8380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D488FB1C49F73C001C8380 /* AppDelegate.swift */; };
+		D3D488FE1C49F73C001C8380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D488FD1C49F73C001C8380 /* Assets.xcassets */; };
+		D3D489011C49F73C001C8380 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D488FF1C49F73C001C8380 /* MainMenu.xib */; };
+		D3D4890C1C49F73C001C8380 /* JKKCocoaTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4890B1C49F73C001C8380 /* JKKCocoaTableViewTests.swift */; };
+		D3D489171C49F73C001C8380 /* JKKCocoaTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D489161C49F73C001C8380 /* JKKCocoaTableViewUITests.swift */; };
+		D3D489251C49F749001C8380 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D489241C49F749001C8380 /* Song.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D489081C49F73C001C8380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D488F01C49F73C001C8380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D488F71C49F73C001C8380;
+			remoteInfo = JKKCocoaTableView;
+		};
+		D3D489131C49F73C001C8380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D488F01C49F73C001C8380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D488F71C49F73C001C8380;
+			remoteInfo = JKKCocoaTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D488F81C49F73C001C8380 /* JKKCocoaTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKKCocoaTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D488FB1C49F73C001C8380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D488FD1C49F73C001C8380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D489001C49F73C001C8380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D3D489021C49F73C001C8380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D489071C49F73C001C8380 /* JKKCocoaTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKCocoaTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4890B1C49F73C001C8380 /* JKKCocoaTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKCocoaTableViewTests.swift; sourceTree = "<group>"; };
+		D3D4890D1C49F73C001C8380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D489121C49F73C001C8380 /* JKKCocoaTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKKCocoaTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D489161C49F73C001C8380 /* JKKCocoaTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKKCocoaTableViewUITests.swift; sourceTree = "<group>"; };
+		D3D489181C49F73C001C8380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D489241C49F749001C8380 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D488F51C49F73C001C8380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D489041C49F73C001C8380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4890F1C49F73C001C8380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D488EF1C49F73C001C8380 = {
+			isa = PBXGroup;
+			children = (
+				D3D488FA1C49F73C001C8380 /* JKKCocoaTableView */,
+				D3D4890A1C49F73C001C8380 /* JKKCocoaTableViewTests */,
+				D3D489151C49F73C001C8380 /* JKKCocoaTableViewUITests */,
+				D3D488F91C49F73C001C8380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D488F91C49F73C001C8380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D488F81C49F73C001C8380 /* JKKCocoaTableView.app */,
+				D3D489071C49F73C001C8380 /* JKKCocoaTableViewTests.xctest */,
+				D3D489121C49F73C001C8380 /* JKKCocoaTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D488FA1C49F73C001C8380 /* JKKCocoaTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D3D488FB1C49F73C001C8380 /* AppDelegate.swift */,
+				D3D489241C49F749001C8380 /* Song.swift */,
+				D3D488FD1C49F73C001C8380 /* Assets.xcassets */,
+				D3D488FF1C49F73C001C8380 /* MainMenu.xib */,
+				D3D489021C49F73C001C8380 /* Info.plist */,
+			);
+			path = JKKCocoaTableView;
+			sourceTree = "<group>";
+		};
+		D3D4890A1C49F73C001C8380 /* JKKCocoaTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4890B1C49F73C001C8380 /* JKKCocoaTableViewTests.swift */,
+				D3D4890D1C49F73C001C8380 /* Info.plist */,
+			);
+			path = JKKCocoaTableViewTests;
+			sourceTree = "<group>";
+		};
+		D3D489151C49F73C001C8380 /* JKKCocoaTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D489161C49F73C001C8380 /* JKKCocoaTableViewUITests.swift */,
+				D3D489181C49F73C001C8380 /* Info.plist */,
+			);
+			path = JKKCocoaTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D488F71C49F73C001C8380 /* JKKCocoaTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4891B1C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableView" */;
+			buildPhases = (
+				D3D488F41C49F73C001C8380 /* Sources */,
+				D3D488F51C49F73C001C8380 /* Frameworks */,
+				D3D488F61C49F73C001C8380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKKCocoaTableView;
+			productName = JKKCocoaTableView;
+			productReference = D3D488F81C49F73C001C8380 /* JKKCocoaTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D489061C49F73C001C8380 /* JKKCocoaTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4891E1C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableViewTests" */;
+			buildPhases = (
+				D3D489031C49F73C001C8380 /* Sources */,
+				D3D489041C49F73C001C8380 /* Frameworks */,
+				D3D489051C49F73C001C8380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D489091C49F73C001C8380 /* PBXTargetDependency */,
+			);
+			name = JKKCocoaTableViewTests;
+			productName = JKKCocoaTableViewTests;
+			productReference = D3D489071C49F73C001C8380 /* JKKCocoaTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D489111C49F73C001C8380 /* JKKCocoaTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D489211C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableViewUITests" */;
+			buildPhases = (
+				D3D4890E1C49F73C001C8380 /* Sources */,
+				D3D4890F1C49F73C001C8380 /* Frameworks */,
+				D3D489101C49F73C001C8380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D489141C49F73C001C8380 /* PBXTargetDependency */,
+			);
+			name = JKKCocoaTableViewUITests;
+			productName = JKKCocoaTableViewUITests;
+			productReference = D3D489121C49F73C001C8380 /* JKKCocoaTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D488F01C49F73C001C8380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D3D488F71C49F73C001C8380 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D3D489061C49F73C001C8380 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D3D488F71C49F73C001C8380;
+					};
+					D3D489111C49F73C001C8380 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D3D488F71C49F73C001C8380;
+					};
+				};
+			};
+			buildConfigurationList = D3D488F31C49F73C001C8380 /* Build configuration list for PBXProject "JKKCocoaTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D488EF1C49F73C001C8380;
+			productRefGroup = D3D488F91C49F73C001C8380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D488F71C49F73C001C8380 /* JKKCocoaTableView */,
+				D3D489061C49F73C001C8380 /* JKKCocoaTableViewTests */,
+				D3D489111C49F73C001C8380 /* JKKCocoaTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D488F61C49F73C001C8380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D488FE1C49F73C001C8380 /* Assets.xcassets in Resources */,
+				D3D489011C49F73C001C8380 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D489051C49F73C001C8380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D489101C49F73C001C8380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D488F41C49F73C001C8380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D489251C49F749001C8380 /* Song.swift in Sources */,
+				D3D488FC1C49F73C001C8380 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D489031C49F73C001C8380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4890C1C49F73C001C8380 /* JKKCocoaTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4890E1C49F73C001C8380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D489171C49F73C001C8380 /* JKKCocoaTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D489091C49F73C001C8380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D488F71C49F73C001C8380 /* JKKCocoaTableView */;
+			targetProxy = D3D489081C49F73C001C8380 /* PBXContainerItemProxy */;
+		};
+		D3D489141C49F73C001C8380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D488F71C49F73C001C8380 /* JKKCocoaTableView */;
+			targetProxy = D3D489131C49F73C001C8380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3D488FF1C49F73C001C8380 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D489001C49F73C001C8380 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3D489191C49F73C001C8380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D4891A1C49F73C001C8380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3D4891C1C49F73C001C8380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D4891D1C49F73C001C8380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3D4891F1C49F73C001C8380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKCocoaTableView.app/Contents/MacOS/JKKCocoaTableView";
+			};
+			name = Debug;
+		};
+		D3D489201C49F73C001C8380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKKCocoaTableView.app/Contents/MacOS/JKKCocoaTableView";
+			};
+			name = Release;
+		};
+		D3D489221C49F73C001C8380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKCocoaTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3D489231C49F73C001C8380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JKKCocoaTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.JKKCocoaTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKKCocoaTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D488F31C49F73C001C8380 /* Build configuration list for PBXProject "JKKCocoaTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D489191C49F73C001C8380 /* Debug */,
+				D3D4891A1C49F73C001C8380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4891B1C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4891C1C49F73C001C8380 /* Debug */,
+				D3D4891D1C49F73C001C8380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3D4891E1C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4891F1C49F73C001C8380 /* Debug */,
+				D3D489201C49F73C001C8380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3D489211C49F73C001C8380 /* Build configuration list for PBXNativeTarget "JKKCocoaTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D489221C49F73C001C8380 /* Debug */,
+				D3D489231C49F73C001C8380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D488F01C49F73C001C8380 /* Project object */;
+}
