@@ -1,0 +1,24 @@
+<html>
+   <body>
+    <h1> hello webkit </h1>
+   <script>
+    var boolVar = confirm("shall we kill the tiger,wusong");
+    if (boolVar == true) {
+        alert("wusong killed the tiger")
+    } else {
+        alert("tiger is alive")
+    }
+   
+  
+   function promptInput() {
+   var species = prompt("plz enter your species:","allien");
+   
+   document.getElementById('promptID').innerHTML = species;
+   }
+    </script>
+   
+   
+   <input type="button" onclick="promptInput()" value="输入文本框" />
+   <h1 id="promptID"> </h1>
+   </body>
+</html>
