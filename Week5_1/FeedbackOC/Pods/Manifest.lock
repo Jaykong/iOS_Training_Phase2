@@ -1,0 +1,10 @@
+PODS:
+  - KVNProgress (2.2.1)
+
+DEPENDENCIES:
+  - KVNProgress
+
+SPEC CHECKSUMS:
+  KVNProgress: 7001d2d16a2755cee5599e8e485befe056f2197b
+
+COCOAPODS: 0.39.0
