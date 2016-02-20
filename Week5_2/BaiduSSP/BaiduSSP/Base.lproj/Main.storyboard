@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tU6-xu-2KU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="U70-5m-Hzq">
+            <objects>
+                <viewController id="4MW-Pm-Ql0" customClass="InterstitialViewController" customModule="BaiduSSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TaF-gx-SJU"/>
+                        <viewControllerLayoutGuide type="bottom" id="uIU-rP-PuR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SgA-Zh-M7S">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF4-2h-ITg">
+                                <rect key="frame" x="238" y="258" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="show:" destination="4MW-Pm-Ql0" eventType="touchUpInside" id="a41-ti-t1l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Cpw-SQ-ses"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RG6-Br-cj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="840"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="eFm-Fh-9fN">
+            <objects>
+                <viewController id="TVP-f6-dfC" customClass="ViewController" customModule="BaiduSSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jqc-hm-uon"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Uv-dG-BK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aCU-2o-z0F">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="prr-dC-KFa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPB-43-JFH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="192"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EFT-Ay-j2s">
+            <objects>
+                <tabBarController id="tU6-xu-2KU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MdM-zG-Gd4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TVP-f6-dfC" kind="relationship" relationship="viewControllers" id="l4e-eB-yzH"/>
+                        <segue destination="4MW-Pm-Ql0" kind="relationship" relationship="viewControllers" id="9RX-J0-dtm"/>
+                        <segue destination="zfV-gI-Thr" kind="relationship" relationship="viewControllers" id="lAw-9D-t9T"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywF-Ij-BUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="375"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="4AS-OQ-Sn9">
+            <objects>
+                <viewController id="zfV-gI-Thr" customClass="BeforeVidioViewController" customModule="BaiduSSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tQL-qb-66d"/>
+                        <viewControllerLayoutGuide type="bottom" id="ljV-7z-MxX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wjH-mg-HRs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcl-bb-ZMr">
+                                <rect key="frame" x="237" y="194" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="show:" destination="zfV-gI-Thr" eventType="touchUpInside" id="abx-lO-WOV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wVq-fe-Zac"/>
+                    <connections>
+                        <outlet property="button" destination="bcl-bb-ZMr" id="j1Z-u7-d2S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7nC-Ka-0Wr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="1032"/>
+        </scene>
+    </scenes>
+</document>
