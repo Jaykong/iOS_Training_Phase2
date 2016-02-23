@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CDA42B1C76937F0022260D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CDA42A1C76937F0022260D /* AppDelegate.swift */; };
+		D3CDA42D1C76937F0022260D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CDA42C1C76937F0022260D /* ViewController.swift */; };
+		D3CDA4301C76937F0022260D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CDA42E1C76937F0022260D /* Main.storyboard */; };
+		D3CDA4321C76937F0022260D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CDA4311C76937F0022260D /* Assets.xcassets */; };
+		D3CDA4351C76937F0022260D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CDA4331C76937F0022260D /* LaunchScreen.storyboard */; };
+		D3CDA4401C76937F0022260D /* GDataXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CDA43F1C76937F0022260D /* GDataXMLTests.swift */; };
+		D3CDA44B1C76937F0022260D /* GDataXMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CDA44A1C76937F0022260D /* GDataXMLUITests.swift */; };
+		D3CDA45B1C76938E0022260D /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CDA45A1C76938E0022260D /* GDataXMLNode.m */; };
+		D3CDA45D1C76940D0022260D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CDA45C1C76940D0022260D /* libxml2.2.tbd */; };
+		D3CDA45F1C769D140022260D /* users.xml in Resources */ = {isa = PBXBuildFile; fileRef = D3CDA45E1C769D140022260D /* users.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3CDA43C1C76937F0022260D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CDA41F1C76937F0022260D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CDA4261C76937F0022260D;
+			remoteInfo = GDataXML;
+		};
+		D3CDA4471C76937F0022260D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CDA41F1C76937F0022260D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CDA4261C76937F0022260D;
+			remoteInfo = GDataXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3CDA4271C76937F0022260D /* GDataXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDataXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CDA42A1C76937F0022260D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3CDA42C1C76937F0022260D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3CDA42F1C76937F0022260D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CDA4311C76937F0022260D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CDA4341C76937F0022260D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CDA4361C76937F0022260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CDA43B1C76937F0022260D /* GDataXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDataXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CDA43F1C76937F0022260D /* GDataXMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDataXMLTests.swift; sourceTree = "<group>"; };
+		D3CDA4411C76937F0022260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CDA4461C76937F0022260D /* GDataXMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDataXMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CDA44A1C76937F0022260D /* GDataXMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDataXMLUITests.swift; sourceTree = "<group>"; };
+		D3CDA44C1C76937F0022260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CDA4581C76938E0022260D /* GDataXML-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GDataXML-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3CDA4591C76938E0022260D /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		D3CDA45A1C76938E0022260D /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		D3CDA45C1C76940D0022260D /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D3CDA45E1C769D140022260D /* users.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = users.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CDA4241C76937F0022260D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDA45D1C76940D0022260D /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4381C76937F0022260D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4431C76937F0022260D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CDA41E1C76937F0022260D = {
+			isa = PBXGroup;
+			children = (
+				D3CDA45C1C76940D0022260D /* libxml2.2.tbd */,
+				D3CDA4291C76937F0022260D /* GDataXML */,
+				D3CDA43E1C76937F0022260D /* GDataXMLTests */,
+				D3CDA4491C76937F0022260D /* GDataXMLUITests */,
+				D3CDA4281C76937F0022260D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CDA4281C76937F0022260D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CDA4271C76937F0022260D /* GDataXML.app */,
+				D3CDA43B1C76937F0022260D /* GDataXMLTests.xctest */,
+				D3CDA4461C76937F0022260D /* GDataXMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CDA4291C76937F0022260D /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				D3CDA4591C76938E0022260D /* GDataXMLNode.h */,
+				D3CDA45A1C76938E0022260D /* GDataXMLNode.m */,
+				D3CDA45E1C769D140022260D /* users.xml */,
+				D3CDA42A1C76937F0022260D /* AppDelegate.swift */,
+				D3CDA42C1C76937F0022260D /* ViewController.swift */,
+				D3CDA42E1C76937F0022260D /* Main.storyboard */,
+				D3CDA4311C76937F0022260D /* Assets.xcassets */,
+				D3CDA4331C76937F0022260D /* LaunchScreen.storyboard */,
+				D3CDA4361C76937F0022260D /* Info.plist */,
+				D3CDA4581C76938E0022260D /* GDataXML-Bridging-Header.h */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		D3CDA43E1C76937F0022260D /* GDataXMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CDA43F1C76937F0022260D /* GDataXMLTests.swift */,
+				D3CDA4411C76937F0022260D /* Info.plist */,
+			);
+			path = GDataXMLTests;
+			sourceTree = "<group>";
+		};
+		D3CDA4491C76937F0022260D /* GDataXMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CDA44A1C76937F0022260D /* GDataXMLUITests.swift */,
+				D3CDA44C1C76937F0022260D /* Info.plist */,
+			);
+			path = GDataXMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CDA4261C76937F0022260D /* GDataXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CDA44F1C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXML" */;
+			buildPhases = (
+				D3CDA4231C76937F0022260D /* Sources */,
+				D3CDA4241C76937F0022260D /* Frameworks */,
+				D3CDA4251C76937F0022260D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDataXML;
+			productName = GDataXML;
+			productReference = D3CDA4271C76937F0022260D /* GDataXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3CDA43A1C76937F0022260D /* GDataXMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CDA4521C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXMLTests" */;
+			buildPhases = (
+				D3CDA4371C76937F0022260D /* Sources */,
+				D3CDA4381C76937F0022260D /* Frameworks */,
+				D3CDA4391C76937F0022260D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CDA43D1C76937F0022260D /* PBXTargetDependency */,
+			);
+			name = GDataXMLTests;
+			productName = GDataXMLTests;
+			productReference = D3CDA43B1C76937F0022260D /* GDataXMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3CDA4451C76937F0022260D /* GDataXMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CDA4551C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXMLUITests" */;
+			buildPhases = (
+				D3CDA4421C76937F0022260D /* Sources */,
+				D3CDA4431C76937F0022260D /* Frameworks */,
+				D3CDA4441C76937F0022260D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CDA4481C76937F0022260D /* PBXTargetDependency */,
+			);
+			name = GDataXMLUITests;
+			productName = GDataXMLUITests;
+			productReference = D3CDA4461C76937F0022260D /* GDataXMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CDA41F1C76937F0022260D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D3CDA4261C76937F0022260D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D3CDA43A1C76937F0022260D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3CDA4261C76937F0022260D;
+					};
+					D3CDA4451C76937F0022260D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3CDA4261C76937F0022260D;
+					};
+				};
+			};
+			buildConfigurationList = D3CDA4221C76937F0022260D /* Build configuration list for PBXProject "GDataXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CDA41E1C76937F0022260D;
+			productRefGroup = D3CDA4281C76937F0022260D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CDA4261C76937F0022260D /* GDataXML */,
+				D3CDA43A1C76937F0022260D /* GDataXMLTests */,
+				D3CDA4451C76937F0022260D /* GDataXMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CDA4251C76937F0022260D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDA4351C76937F0022260D /* LaunchScreen.storyboard in Resources */,
+				D3CDA4321C76937F0022260D /* Assets.xcassets in Resources */,
+				D3CDA45F1C769D140022260D /* users.xml in Resources */,
+				D3CDA4301C76937F0022260D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4391C76937F0022260D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4441C76937F0022260D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CDA4231C76937F0022260D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDA42D1C76937F0022260D /* ViewController.swift in Sources */,
+				D3CDA42B1C76937F0022260D /* AppDelegate.swift in Sources */,
+				D3CDA45B1C76938E0022260D /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4371C76937F0022260D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDA4401C76937F0022260D /* GDataXMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CDA4421C76937F0022260D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CDA44B1C76937F0022260D /* GDataXMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3CDA43D1C76937F0022260D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CDA4261C76937F0022260D /* GDataXML */;
+			targetProxy = D3CDA43C1C76937F0022260D /* PBXContainerItemProxy */;
+		};
+		D3CDA4481C76937F0022260D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CDA4261C76937F0022260D /* GDataXML */;
+			targetProxy = D3CDA4471C76937F0022260D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3CDA42E1C76937F0022260D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CDA42F1C76937F0022260D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CDA4331C76937F0022260D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CDA4341C76937F0022260D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CDA44D1C76937F0022260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3CDA44E1C76937F0022260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CDA4501C76937F0022260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GDataXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GDataXML/GDataXML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3CDA4511C76937F0022260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GDataXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GDataXML/GDataXML-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D3CDA4531C76937F0022260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDataXMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDataXML.app/GDataXML";
+			};
+			name = Debug;
+		};
+		D3CDA4541C76937F0022260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDataXMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDataXML.app/GDataXML";
+			};
+			name = Release;
+		};
+		D3CDA4561C76937F0022260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDataXMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDataXML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3CDA4571C76937F0022260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDataXMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.GDataXMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDataXML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CDA4221C76937F0022260D /* Build configuration list for PBXProject "GDataXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CDA44D1C76937F0022260D /* Debug */,
+				D3CDA44E1C76937F0022260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CDA44F1C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CDA4501C76937F0022260D /* Debug */,
+				D3CDA4511C76937F0022260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3CDA4521C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CDA4531C76937F0022260D /* Debug */,
+				D3CDA4541C76937F0022260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3CDA4551C76937F0022260D /* Build configuration list for PBXNativeTarget "GDataXMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CDA4561C76937F0022260D /* Debug */,
+				D3CDA4571C76937F0022260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CDA41F1C76937F0022260D /* Project object */;
+}
